@@ -1,0 +1,32 @@
+{
+  "name": "amazonSearcheProductTask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@wdio/local-runner": "^6.1.25",
+    "@wdio/mocha-framework": "^6.1.19",
+    "@wdio/spec-reporter": "^6.1.23",
+    "@wdio/sync": "^6.1.14",
+    "chromedriver": "^83.0.1",
+    "wdio-chromedriver-service": "^6.0.3"
+  },
+  "scripts": {
+    "test": "npx wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiKalenchuk/amazonSearcheProductTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiKalenchuk/amazonSearcheProductTask/issues"
+  },
+  "homepage": "https://github.com/AndreiKalenchuk/amazonSearcheProductTask#readme"
+}
